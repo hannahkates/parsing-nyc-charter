@@ -1,5 +1,13 @@
 import pandas as pd
 
+# specify the keywords to look for
+keywords = [
+    "public review",
+    "public hearing",
+    "vote",
+    "public participation"
+]
+
 # open the NYC city charter text file exported from
 # http://library.amlegal.com/nxt/gateway.dll/New%20York/charter/newyorkcitycharter?f=templates$fn=default.htm$3.0$vid=amlegal:newyork_ny
 f = open('document.txt', 'r')
